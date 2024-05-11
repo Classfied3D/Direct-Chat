@@ -1,0 +1,29 @@
+client1's key (k1)
+
+{
+	k1:ip
+	k1:auth for client2
+	k1:auth for client1
+}
+
+client2's key (k2)
+
+{
+	k2:ip
+	k2:auth for client1
+	k2:auth for client2
+}
+
+client1 recives k1, client2 recives k2
+
+Both connect
+
+Both exchange pubkeys
+
+Client 1
+k1:auth for client1 + k2:auth for client1 are combined and sent
+
+Client2
+k1:auth for client2 + k2:auth for client2 are combined and sent
+
+Once verified, messages can be sent encrypted
