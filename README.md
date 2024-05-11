@@ -1,6 +1,6 @@
 Direct chat is a peer-to-peer python terminal based chat app which doesn't rely on a third party server.
 
-# FAQ
+## FAQ
 ### Q: How do I use it?
 
 A: Exchange IPs with someone else. Then enter them within the same minute.
